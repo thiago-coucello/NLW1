@@ -2,8 +2,6 @@ import knex from "../database/connection"
 import { Request, Response } from "express"
 
 class PointController{
-    public PointController(){}
-
     async create(request: Request, response: Response){
         const {
             name,
